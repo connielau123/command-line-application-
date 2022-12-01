@@ -5,12 +5,18 @@ const inquirer = require('inquirer')
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [
+     
     {
         type: 'input', 
         name: 'github', 
         message: 'Please enter your github name?',
     },
     // add more questions
+    {
+        type: 'input', 
+        name: 'github', 
+        message: 'Please enter your github email?',
+    },
 ];
 
 // TODO: Create a function to write README file
